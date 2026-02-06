@@ -19,14 +19,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jianpu/musje.git"
+    "url": "https://github.com/chengfeng30121/musje.git"
   },
   "author": "Malcom Wu",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jianpu/musje/issues"
+    "url": "https://github.com/chengfeng30121/musje/issues"
   },
-  "homepage": "https://github.com/jianpu/musje",
+  "homepage": "https://github.com/chengfeng30121/musje",
   "dependencies": {
     "jison": "^0.4.17"
   },
