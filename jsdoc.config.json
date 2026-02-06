@@ -1,0 +1,31 @@
+{
+  "opts": {
+    "encoding": "utf8",
+    "destination": "./doc/",
+    "recurse": true
+  },
+  "source": {
+    "include": [
+      "src",
+      "README.md"
+    ],
+    "exclude": [
+      "src/**/__tests__"
+    ],
+    "includePattern": ".+\\.js(doc|x)?$",
+    "excludePattern": "(^|\\/|\\\\)_"
+  },
+  "plugins": [
+    "plugins/markdown"
+  ],
+  "markdown": {
+    "idInHeadings": true
+  },
+  "templates": {
+    "default": {
+      "layoutFile": "./node_modules/jsdoc/templates/default/tmpl/layout.tmpl",
+      "includeDate": false,
+      "useLongnameInNav": true
+    }
+  }
+}

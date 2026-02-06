@@ -1,0 +1,8 @@
+.DS_Store
+.tmp/
+node_modules/
+/ignore/
+package-lock.json
+.env
+lib
+doc
